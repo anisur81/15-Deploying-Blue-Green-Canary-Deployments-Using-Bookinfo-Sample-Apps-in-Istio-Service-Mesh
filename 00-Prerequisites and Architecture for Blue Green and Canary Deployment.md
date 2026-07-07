@@ -9,7 +9,7 @@
 
 ## Target Architecture 
 
- 
+ ```
 Internet
    ↓
 MetalLB External IP
@@ -21,3 +21,4 @@ Kubernetes Gateway API Gateway
 HTTPRoute
    ↓
 Bookinfo Services
+```
