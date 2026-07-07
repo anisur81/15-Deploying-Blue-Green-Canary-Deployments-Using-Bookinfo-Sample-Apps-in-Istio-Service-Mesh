@@ -6,3 +6,18 @@
 4.	Istio installed with demo profile
 5.	Gateway API CRDs installed
 6.	Internet access to pull container images
+
+## Target Architecture 
+
+ 
+Internet
+   ↓
+MetalLB External IP
+   ↓
+Istio IngressGateway Controller
+   ↓
+Kubernetes Gateway API Gateway
+   ↓
+HTTPRoute
+   ↓
+Bookinfo Services
